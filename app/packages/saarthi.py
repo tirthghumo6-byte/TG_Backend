@@ -8,7 +8,7 @@ from app.utils.supabase_uploads import upload_to_supabase
 import shutil, os
 from fastapi import BackgroundTasks
 from datetime import date
-
+ 
 router = APIRouter()
 
 UPLOAD_DIR = "uploads/"
